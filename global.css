@@ -57,6 +57,7 @@ body {
 
 .order-content > h1 {
     font-family: var(--Red-hat);
+    font-size: 1.75rem;
     padding-top: 2.813rem;
     font-weight: 900;
 }
