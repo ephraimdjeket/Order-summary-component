@@ -1,0 +1,172 @@
+:root {
+
+/* Primary Colors */
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+/* Neutral Colors */
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+
+/* Font styles */
+--Red-hat: "Red Hat Display", sans-serif;
+
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Pale-blue);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.order-wrapper {
+    padding: 6.375rem 0rem 6.313rem 0rem;
+}
+
+.illustration-hero, .order-content {
+    width: 450px;
+}
+
+.illustration-hero {
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.order-content {
+    border-radius: 0px 0px 20px 20px;
+    background-color: #ffff;
+    padding: 0rem 3rem;
+    text-align: center;
+}
+
+.order-content > h1 {
+    font-family: var(--Red-hat);
+    padding-top: 2.813rem;
+    font-weight: 900;
+}
+
+.order-content > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1.063rem;
+    font-size: 1rem;
+    font-family: var(--Red-hat);
+    color: var(--Desaturated-blue);
+    line-height: 26px;
+    max-width: 290px;
+}
+
+.annual-plan, .annual-plan-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.annual-plan {
+    align-items: center;
+    margin-top: 1.25rem;
+    border-radius: 11px;
+    background-color: var(--Very-pale-blue);
+    width: 354px;
+    height: 98px;
+}
+
+.icon-music {
+    padding-left: 1.5rem;
+    width: 48px;
+}
+
+.annual-plan-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding-left: 2.5rem;
+}
+
+.annual-plan-text > h2 {
+    font-size: 1rem;
+    font-family: var(--Red-hat);
+    font-weight: 900;
+}
+
+.annual-plan-text > p {
+    font-size: 1rem;
+    color: var(--Desaturated-blue);
+    font-family: var(--Red-hat);
+    font-weight: 500;
+}
+
+.change {
+    padding-left: 5.875rem;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    color: var(--Bright-blue);
+    font-family: var(--Red-hat);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+button {
+    width: 354px;
+    height: 50px;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem 3rem 0rem;
+    font-family: var(--Red-hat);
+}
+
+.buttons > button:first-child {
+    background-color: var(--Bright-blue);
+    color: white;
+    font-size: 0.938rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 11px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
+}
+
+.buttons > button:first-child:hover {
+    background-color: #766CF1;
+
+}
+
+.buttons > a:last-child {
+    padding-top: 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+}
+
+.buttons > a:last-child:hover {
+    color: black;
+}
