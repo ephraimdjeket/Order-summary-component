@@ -53,10 +53,12 @@ body {
     background-color: #ffff;
     padding: 0rem 3rem;
     text-align: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
 }
 
 .order-content > h1 {
     font-family: var(--Red-hat);
+    color: var(--Dark-blue);
     font-size: 1.75rem;
     padding-top: 2.813rem;
     font-weight: 900;
@@ -105,6 +107,7 @@ body {
 
 .annual-plan-text > h2 {
     font-size: 1rem;
+    color: var(--Dark-blue);
     font-family: var(--Red-hat);
     font-weight: 900;
 }
