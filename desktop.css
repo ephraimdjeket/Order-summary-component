@@ -1,0 +1,114 @@
+@media screen and (min-width: 29.375em) {
+    .order-content {
+        padding: 0rem 3rem;
+    }
+
+    .illustration-hero, .order-content {
+        width: 450px;
+    }
+    
+    .order-content > h1 {
+        font-size: 1.75rem;
+        padding-top: 2.813rem;
+    }
+    
+    .order-content > p {
+        padding-top: 1.063rem;
+        font-size: 1rem;
+        line-height: 26px;
+        max-width: 290px;
+    }
+    
+    .annual-plan, .annual-plan-text {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .annual-plan {
+        margin-top: 1.25rem;
+        border-radius: 11px;
+        width: 354px;
+        height: 98px;
+    }
+    
+    .icon-music {
+        padding-left: 1.5rem;
+        width: 48px;
+    }
+    
+    .annual-plan-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        text-align: left;
+        padding-left: 2.5rem;
+    }
+    
+    .annual-plan-text > h2 {
+        font-size: 1rem;
+        color: var(--Dark-blue);
+        font-family: var(--Red-hat);
+        font-weight: 900;
+    }
+    
+    .annual-plan-text > p {
+        font-size: 1rem;
+        color: var(--Desaturated-blue);
+        font-family: var(--Red-hat);
+        font-weight: 500;
+    }
+    
+    .change {
+        padding-left: 5.875rem;
+        font-size: 0.875rem;
+        text-decoration: underline;
+        color: var(--Bright-blue);
+        font-family: var(--Red-hat);
+        font-weight: 900;
+        cursor: pointer;
+    }
+    
+    .change:hover {
+        text-decoration: none;
+        color: #766CF1;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem 3rem 0rem;
+        font-family: var(--Red-hat);
+    }
+    
+    .buttons > button:first-child {
+        border: none;   
+        width: 354px;
+        height: 50px;
+        background-color: var(--Bright-blue);
+        color: white;
+        font-size: 0.938rem;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 11px;
+        box-shadow: 0 5px 5px var(--Bright-blue);
+    }
+    
+    .buttons > button:first-child:hover {
+        background-color: #766CF1;
+    
+    }
+    
+    .buttons > a:last-child {
+        padding-top: 2rem;
+        cursor: pointer;
+        font-weight: 700;
+        color: var(--Desaturated-blue);
+    }
+    
+    .buttons > a:last-child:hover {
+        color: black;
+    }
+}
