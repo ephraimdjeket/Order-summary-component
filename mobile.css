@@ -10,6 +10,10 @@
         width: 327px;
     }
 
+    .order-content {
+        padding: 0rem 1.5rem;
+    }
+
     .order-content > h1 {
         padding-top: 2rem;
         font-size: 1.375rem;
@@ -20,6 +24,7 @@
         font-size: 0.938rem;
         line-height: 25px;
         max-width: 500px;
+        padding-bottom: 1.5rem;
     }
 
     .annual-plan-text > h2, .annual-plan-text > p {
@@ -50,4 +55,10 @@
         width: 279px;
         height: 81px;
     }
+
+    .buttons > button:first-child {
+        width: 279px;
+        height: 50px;
+    }
+
 }
