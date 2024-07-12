@@ -35,10 +35,6 @@ body {
     width: 100%;
 }
 
-.order-wrapper {
-    padding: 6.375rem 0rem 6.313rem 0rem;
-}
-
 .illustration-hero, .order-content {
     width: 450px;
 }
@@ -51,16 +47,13 @@ body {
 .order-content {
     border-radius: 0px 0px 20px 20px;
     background-color: #ffff;
-    padding: 0rem 3rem;
     text-align: center;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 20px 20px var(--Pale-blue);
 }
 
 .order-content > h1 {
     font-family: var(--Red-hat);
     color: var(--Dark-blue);
-    font-size: 1.75rem;
-    padding-top: 2.813rem;
     font-weight: 900;
 }
 
@@ -69,12 +62,8 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding-top: 1.063rem;
-    font-size: 1rem;
     font-family: var(--Red-hat);
     color: var(--Desaturated-blue);
-    line-height: 26px;
-    max-width: 290px;
 }
 
 .annual-plan, .annual-plan-text {
@@ -84,25 +73,7 @@ body {
 
 .annual-plan {
     align-items: center;
-    margin-top: 1.25rem;
-    border-radius: 11px;
     background-color: var(--Very-pale-blue);
-    width: 354px;
-    height: 98px;
-}
-
-.icon-music {
-    padding-left: 1.5rem;
-    width: 48px;
-}
-
-.annual-plan-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    text-align: left;
-    padding-left: 2.5rem;
 }
 
 .annual-plan-text > h2 {
@@ -134,12 +105,6 @@ body {
     color: #766CF1;
 }
 
-button {
-    width: 354px;
-    height: 50px;
-    border: none;
-}
-
 .buttons {
     display: flex;
     flex-direction: column;
@@ -150,13 +115,13 @@ button {
 }
 
 .buttons > button:first-child {
+    border: none;   
     background-color: var(--Bright-blue);
     color: white;
-    font-size: 0.938rem;
     font-weight: 700;
     cursor: pointer;
     border-radius: 11px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 5px var(--Bright-blue);
 }
 
 .buttons > button:first-child:hover {
@@ -165,7 +130,6 @@ button {
 }
 
 .buttons > a:last-child {
-    padding-top: 2rem;
     cursor: pointer;
     font-weight: 700;
     color: var(--Desaturated-blue);
