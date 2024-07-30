@@ -44,7 +44,7 @@
 
 ## About the project
 
-This is my <strong>3<sup>th</sup></strong> Frontend Mentor challenge.
+This is my <strong>3<sup>rd</sup></strong> Frontend Mentor challenge.
 
 This is my solution for the order summary component challenge on Frontend Mentor.
 
